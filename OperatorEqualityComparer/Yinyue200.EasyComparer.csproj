@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/yinyue200/EasyEqualityComparer</RepositoryUrl>
+    <Company>yinyue200.com</Company>
+    <Authors>yinyue200.com</Authors>
+    <PackageLicenseUrl>https://github.com/yinyue200/EasyEqualityComparer/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageProjectUrl>https://github.com/yinyue200/EasyEqualityComparer</PackageProjectUrl>
   </PropertyGroup>
 
 </Project>
