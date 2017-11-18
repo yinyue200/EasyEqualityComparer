@@ -9,6 +9,7 @@
     <PackageLicenseUrl>https://github.com/yinyue200/EasyEqualityComparer/blob/master/LICENSE</PackageLicenseUrl>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageProjectUrl>https://github.com/yinyue200/EasyEqualityComparer</PackageProjectUrl>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>
