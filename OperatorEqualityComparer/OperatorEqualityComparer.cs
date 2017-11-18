@@ -13,7 +13,7 @@ namespace Yinyue200.EasyComparer
         readonly Func<T, T, bool> func;
         public bool Equals(T x, T y) => func(x, y);
 
-        public int GetHashCode(T obj) => obj.GetHashCode();
+        public int GetHashCode(T obj) => EqualityComparer<T>.Default.GetHashCode(obj);
     }
     internal class EasyHashCodeEqualityComparer<T> : IEqualityComparer<T>
     {
